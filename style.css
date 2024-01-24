@@ -1,0 +1,41 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #2D3250; */
+  background-image: url('kwasu.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a{
+  text-decoration: none;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+gap:50px;
+
+
+
+}
+button{
+  width: 300px;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div{
+  width: 15%;
+}
